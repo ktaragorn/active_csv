@@ -5,11 +5,11 @@ require File.expand_path('../lib/active_csv/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "active_csv"
   gem.version       = ActiveCSV::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Active Record like adapter for CSV files}
+  gem.description   = %q{This gem can be used to access rows in CSV files similar to how Active record allows us to access database records}
   gem.license       = "MIT"
   gem.authors       = ["Karthik T"]
-  gem.email         = "karthikt.holmes+github@gmail.com"
+  gem.email         = "karthikt.holmes@gmail.com"
   gem.homepage      = "https://github.com/ktaragorn/active_csv#readme"
 
   gem.files         = `git ls-files`.split($/)
