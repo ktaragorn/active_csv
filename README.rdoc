@@ -3,7 +3,7 @@
 * {Homepage}[https://github.com/ktaragorn/active_csv#readme]
 * {Issues}[https://github.com/ktaragorn/active_csv/issues]
 * {Documentation}[http://rubydoc.info/gems/active_csv/frames]
-* {Email}[mailto:karthikt.holmes+github at gmail.com]
+* {Email}[mailto:karthikt.holmes at gmail.com]
 
 == Description
 

@@ -10,6 +10,16 @@ module ActiveCSV
         
       end
 
+      def columns
+        []
+      end
+
+      def count
+        0
+      end
+
+      alias :size :count
+
       #symbol for column used as id, needed?
       def id_col
         :id

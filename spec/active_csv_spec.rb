@@ -10,6 +10,9 @@ end
 describe "Loading existing CSV file" do
   Given(:the_class){TestCSV}
   Then{the_class.loaded?}
+  Then{the_class.columns == [:id, :name, :count, :size]}
+  Then{the_class.count == 4}
+  Then{the_class.size == 4}
 end
 
 describe "Loading non-existing CSV file" do
